@@ -1,5 +1,9 @@
 <h1 align="center">Receita Junina</h1>
 
+<p align="center">
+  <img alt="projeto Pamonha! preview" src="./preview.png"><br>
+  <p align="center">
+
 ## 🌞 Tecnologias
 
 - HTML e CSS
