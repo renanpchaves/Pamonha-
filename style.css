@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pamonhaimg {
+  scale: 0.8;
+}
+body {
+  background: black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  background: linear-gradient(to bottom, #feece0 0%, #feece0 50%);
+  width: 60vw;
+  height: 100vh;
+  align-items: center;
+  padding-top: 4rem;
+  margin: 0;
+  gap: 2rem;
+
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+
+ul,
+ol {
+  font-size: 24px;
+}
+
+.container2 {
+  background: linear-gradient(to top, #9b6647 50%, #9b6647 100%);
+  width: 60vw;
+  height: 100vh;
+  align-items: center;
+  padding-top: 4rem;
+  margin: 0;
+  gap: 2rem;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+
+.pamonha {
+  color: #58190a;
+  font-size: 60px;
+  font-family: Source Serif Pro;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.prato {
+  color: #58190a;
+  font-size: 20px;
+  padding-right: 20px;
+  font-family: Source Serif Pro;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+#portions {
+  display: flex;
+  gap: 1rem;
+  color: #9b6647;
+  white-space: nowrap;
+  padding-top: 1rem;
+}
+
+.porcoes-title {
+  font-size: 24px;
+  font-family: Source Serif Pro;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.porcoes-amount {
+  color: #9b6647;
+  font-size: 24px;
+  font-family: Open Sans;
+  font-weight: 400;
+  word-wrap: break-word;
+  align-items: bottom;
+}
+
+.add {
+  width: 32px;
+  height: 32px;
+  background: #9b6647;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.remove {
+  width: 32px;
+  height: 32px;
+  background: #9b6647;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.ingredientes,
+.preparo {
+  color: #feece0;
+  font-size: 25px;
+  font-family: Open Sans;
+  font-weight: 700;
+  max-width: 720px;
+  word-wrap: break-word;
+  padding-bottom: 2rem;
+  align-items: flex-start;
+}
+
+.listaing,
+.listapreparo {
+  align-items: flex-start;
+  min-width: 433px;
+  height: auto;
+  color: white;
+  font-size: 15px;
+  font-family: Open Sans;
+  font-weight: 200;
+  word-wrap: break-word;
+}
+
+.icon {
+  min-width: 30px;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 1250px) {
+  body {
+    background: #feece0;
+    display: block;
+    display: flex;
+    height: auto;
+    padding: 1rem;
+  }
+  .container,
+  .container2 {
+    min-height: auto;
+    min-width: 100vw;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow-x: hidden;
+    align-items: center;
+  }
+
+  .ingredientes ul,
+  .preparo ol,
+  .ingredientes,
+  .preparo {
+    max-width: 300px; /*organizar ícone de acordo com o início da lista*/
+  }
+
+  .pamonhaimg {
+    max-width: 300px;
+  }
+  .pamonha {
+    font-size: 10vw;
+  }
+  .prato {
+    font-size: 24px;
+  }
+  .ingredientes,
+  .listaing,
+  .preparo,
+  .listapreparo,
+  .porcoes-title,
+  .porcoes-amount {
+    font-size: 24px;
+  }
+}
