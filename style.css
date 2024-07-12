@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-.pamonhaimg {
-  scale: 0.8;
-}
 body {
   background: black;
   margin: 0;
@@ -147,6 +144,10 @@ ol {
     height: auto;
     padding: 1rem;
   }
+
+  .pamonhaimg {
+    max-width: 80vw;
+  }
   .container,
   .container2 {
     min-height: auto;
@@ -166,16 +167,13 @@ ol {
   .preparo {
     max-width: 300px; /*organizar ícone de acordo com o início da lista*/
   }
-
-  .pamonhaimg {
-    max-width: 300px;
-  }
   .pamonha {
     font-size: 10vw;
   }
   .prato {
     font-size: 24px;
   }
+
   .ingredientes,
   .listaing,
   .preparo,
